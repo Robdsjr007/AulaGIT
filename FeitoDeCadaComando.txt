@@ -1,0 +1,38 @@
+git init => Cria um repositório em um diretório "vazio"
+*
+*
+*
+git add <nome do arquivo> => Incluir o arquivo no mapeamento do repositório
+ |
+  === > git add. => inclui todos os arquivos no mapeamento
+*
+*
+*
+git status => apresenta se há arquivos e/ou mudanças que ainda não fazem parte de um registreo na linha do tempo (commit)
+*
+*
+*
+git commit -m "mensagem" => Cria um novo commit na linha do tempo
+		|
+		=== > Comentário que indica o conteúdo da atualização
+*
+*
+*
+git config --<espaço>user.name "seu nome" => Adicionar um nome para o usuário
+		|
+		= global
+		|
+		= local
+*
+*
+*
+git remote add origin "link do repositório remoto" => Associa um repositório local a um remoto;
+*
+*
+*
+git push origin master => envia o conteúdo local para o repositório remoto;
+*
+*
+*
+git pull => Atualiza o repositório local com o conteúdo do repositório remoto.
+ 
